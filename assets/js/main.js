@@ -12,10 +12,11 @@ const {createApp} = Vue
 createApp({
     data() {
         return{
-
+            // VARIABILI
+            heading: 'Hello Vue!'
         }
     },
     methods: {
-
+        // FUNZIONI
     }
 }).mount('#app')
