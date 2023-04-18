@@ -14,7 +14,10 @@
 
     <!-- DIV VUE -->
     <div id="app">
-        <h1>{{heading}}</h1>
+        <div v-for="element in object">
+            <h1>{{element.heading}}</h1>
+            <img v-bind:src="element.image" alt="">
+        </div>
     </div>
 
     <!-- BOOTSTRAP JS -->
