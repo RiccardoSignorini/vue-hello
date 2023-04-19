@@ -13,10 +13,8 @@ createApp({
     data() {
         return{
             // VARIABILI
-            object: [{
-                heading: 'Hello Vue!',
-                image: 'https://picsum.photos/id/237/200/300'
-            }]
+            heading: 'Hello Vue!',
+            image: 'https://picsum.photos/id/237/200/300'
         }
     },
     methods: {
